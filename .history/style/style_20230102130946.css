@@ -1,0 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:regular,500,600&display=swap);
+
+
+*, *::before, *::after {
+margin: 0;
+padding: 0;
+border: 0;
+box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    min-width: 320px;
+}
+
+body{
+    line-height: 1;
+    font
+}

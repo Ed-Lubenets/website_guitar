@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:regular,500,600&display=swap); /*from googlefonts*/
+
+@font-face {   /*from folder*
+    font-family: icons;
+    font-display: swap;
+    src: url(../fonts/CalSans-SemiBold.woff2) format('woff2'), url(../fonts/CalSans-SemiBold.woff) format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+*, *::before, *::after {
+margin: 0;
+padding: 0;
+border: 0;
+box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    min-width: 320px;
+}
+
+body{
+    line-height: 1;
+    font-family: Poppins;
+    /* font-size: 16px; ---- фон по умолчанию в бразере, поэтому в комменте, был бы другой(14,17 и т.д.) тогда вписывал бы в св-о body*/
+    color: #666666;
+}

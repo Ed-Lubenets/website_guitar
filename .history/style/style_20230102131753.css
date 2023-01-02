@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:regular,500,600&display=swap);
+@import url(./);
+
+*, *::before, *::after {
+margin: 0;
+padding: 0;
+border: 0;
+box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    min-width: 320px;
+}
+
+body{
+    line-height: 1;
+    font-family: Poppins;
+    /* font-size: 16px; ---- фон по умолчанию в бразере, поэтому в комменте, был бы другой(14,17 и т.д.) тогда вписывал бы в св-о body*/
+    color: #666666;
+}
