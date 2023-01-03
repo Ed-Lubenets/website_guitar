@@ -171,11 +171,11 @@ li{
     color: #FFFFFF;
     font-weight: 600;
     line-height: 24px;
-    transition: all 0.3s ease 0s;
+    transition: all 0.3s ease;
 }
 .actions-main__button:hover,
 .actions-main__button:focus{
-    background-color: #db4c14;
+    background-color: #ba4619;
 }
 .actions-main__button:not(:last-child){ /*добавление отступа всем элементам только если он(элемент) не последний*/
     margin-right: 40px;
@@ -195,7 +195,6 @@ li{
 }
 .main__image img{
     max-width: 672px;
-    border-radius: 0 0 160px 375px; /*возможность добавления прямоугольных изображений*/
 }
 .main__image::after{
     content: '';

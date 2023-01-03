@@ -195,7 +195,6 @@ li{
 }
 .main__image img{
     max-width: 672px;
-    border-radius: 0 0 160px 375px; /*возможность добавления прямоугольных изображений*/
 }
 .main__image::after{
     content: '';

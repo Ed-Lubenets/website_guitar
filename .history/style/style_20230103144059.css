@@ -192,10 +192,11 @@ li{
     display: inline-block;
     position: relative;
     margin-right: -135px; /*135 из-за отступа 15px в начальных стилях*/
+    overflow: hidden;
+
 }
 .main__image img{
     max-width: 672px;
-    border-radius: 0 0 160px 375px; /*возможность добавления прямоугольных изображений*/
 }
 .main__image::after{
     content: '';

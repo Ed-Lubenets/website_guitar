@@ -78,9 +78,7 @@ li{
 }
 .menu__list {
     display: flex;
-    column-gap: 56px;
-    row-gap: 10px;
-    flex-wrap: wrap;
+    gap: 56px;
 }
 .menu__item {}
 .menu__link {
@@ -98,28 +96,7 @@ li{
         min-height: 100px;
     }
     .menu__list{
-        column-gap: 40px;
-    }
-}
-@media (max-width: 767.98px){
-    .header__container{
-        min-height: 65px;
-    }
-}
-@media (max-width: 479.98px){
-    .header__container{
-        gap: 15px;
-    }
-    .menu{
-        padding: 0;
-    }
-    .menu__list{
-        column-gap: 20px;
-    }
-    .header__logo { /*убираем часть логотипа, больше места*/
-        width: 28px;
-        flex: 0 0 28px;
-        overflow: hidden;
+        gap: 40px;
     }
 }
 /* --------------------------------------------------------------------PAGE------------------------------------------------------- */
@@ -140,7 +117,7 @@ li{
 .main__title {
     font-family: 'CalSans';
     font-size: 56px;
-    line-height: 1.2;
+    line-height: 67px;
     color: #121212;
 }
 .main__title span{
@@ -162,20 +139,15 @@ li{
 .actions-main {
     display: flex;
     align-items: center;
+
 }
 .actions-main__button {
-    text-align: center;
     padding: 18.5px 48px;
     background-color: #FF6428;
     border-radius: 40px;
     color: #FFFFFF;
     font-weight: 600;
     line-height: 24px;
-    transition: all 0.3s ease 0s;
-}
-.actions-main__button:hover,
-.actions-main__button:focus{
-    background-color: #db4c14;
 }
 .actions-main__button:not(:last-child){ /*добавление отступа всем элементам только если он(элемент) не последний*/
     margin-right: 40px;
@@ -195,7 +167,6 @@ li{
 }
 .main__image img{
     max-width: 672px;
-    border-radius: 0 0 160px 375px; /*возможность добавления прямоугольных изображений*/
 }
 .main__image::after{
     content: '';
@@ -213,36 +184,18 @@ li{
         width: 100%;
     }
     .main__content {
-        flex: 0 0 60%;
+        flex: 0 0 70%;
         padding-bottom: 0;
     }
     .main__decor {
-        flex: 0 0 40%;
+        flex: 0 0 30%;
     }
 }
 @media (max-width: 767.98px){
     .main__content{
-        flex: 1 1 100%;
-        padding-right: 0;
-        padding-top: 80px;
-    }
-    .main__title{
-        font-style: 44px;
+        flex: 1;
     }
     .main__decor{
         display: none;
-    }
-}
-@media (max-width: 479.98px){
-    .actions-main {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    .actions-main__button{
-        flex: 1 1 100%;
-    }
-    .actions-main__button:not(:last-child){ /*добавление отступа всем элементам только если он(элемент) не последний*/
-        margin-right: 0px;
-        margin-bottom: 15px;
     }
 }
