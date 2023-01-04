@@ -721,14 +721,12 @@ li{
         margin-bottom: 50px;
     }
     .reviews__swiper.swiper {
-        margin-left: 0px;
+        margin-left: -15px;
     }
     .slide-swiper-reviews {
         flex-direction: column;
     }
-    .slide-swiper-reviews__picture {
-       margin-bottom: 25px; 
-    }
+
 }
 @media (max-width: 767.98px){
     .reviews {

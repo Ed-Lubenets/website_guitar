@@ -726,9 +726,9 @@ li{
     .slide-swiper-reviews {
         flex-direction: column;
     }
-    .slide-swiper-reviews__picture {
-       margin-bottom: 25px; 
-    }
+    .slide-swiper-reviews__picture {}
+    
+
 }
 @media (max-width: 767.98px){
     .reviews {
